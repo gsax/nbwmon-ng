@@ -1,0 +1,10 @@
+nbwmon
+*.o
+tags
+.cache
+.ccls-cache
+.vscode
+compile_commands.json
+build*
+zig-*
+!*.zig
