@@ -20,7 +20,7 @@ pub fn build(b: *std.build.Builder) void {
     exe.setBuildMode(mode);
 
     exe.addCSourceFile("src/main.c", &flags);
-    // exe.addCSourceFile("src/util.c", &flags);
+    exe.addCSourceFile("src/getdata.c", &flags);
 
     exe.linkLibC();
     // exe.linkSystemLibrary("libnl3");
